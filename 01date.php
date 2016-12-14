@@ -11,7 +11,7 @@
 </head>
 <body>
 <form>
-#1:		<input type="text" name="num_1" value="<?php if (isset($_POST['num_1'])){echo $_POST['num_1'];} ?>"<?php erNum1();  ?>/>
+Date:		<input type="text" name="date" value="<?php if (isset($_POST['num_1'])){echo $_POST['num_1'];} ?>"<?php erNum1();  ?>/>
 
     <input type="submit" 	name="button" 	value="Calculate">
     <?php
