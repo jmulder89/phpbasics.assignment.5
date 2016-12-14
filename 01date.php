@@ -10,15 +10,14 @@
 
 </head>
 <body>
-<form>
-Date:		<input type="text" name="date" value="<?php if (isset($_POST['num_1'])){echo $_POST['num_1'];} ?>"<?php erNum1();  ?>/>
+    <form>
+        Date:	<input type="text" name="date" value="" /><br/><br/>
 
-    <input type="submit" 	name="button" 	value="Calculate">
+                <input type="submit" name="button" value="Submit">
+</form>
     <?php
 
     ?>
-</form>
-
 </body>
 
 </html>
