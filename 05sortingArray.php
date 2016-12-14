@@ -53,9 +53,8 @@
 	</head>
 	<body>
 	<?php
-	
-		
-	
+
+        echo "an other test";
 	?>
 	</body>
 
